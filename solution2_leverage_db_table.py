@@ -23,3 +23,4 @@ database_query(part,component,sub_component):
             part__exact = f'{part}')
     else:
         result = None
+    return result
